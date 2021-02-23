@@ -1,0 +1,6 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+inp = fh.read()
+up = inp.upper()
+up = up.rstrip()
+print(up)
